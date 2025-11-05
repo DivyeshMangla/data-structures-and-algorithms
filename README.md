@@ -3,12 +3,9 @@
 This repository contains my solutions to data structures and algorithms problems from various coding platforms such as LeetCode, Codeforces, and GeeksforGeeks.
 
 ## Languages Used
-- Java — 0 questions
-- Python — 0 questions
-- C++ — 0 questions
-- Go — 0 questions
+(No questions solved yet)
 
-**Top language used:** —  
+**Top language used:** None
 **Total questions done:** 0
 
 ## License
