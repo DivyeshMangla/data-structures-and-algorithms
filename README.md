@@ -3,11 +3,10 @@
 This repository contains my solutions to data structures and algorithms problems from various coding platforms such as LeetCode, Codeforces, and GeeksforGeeks.
 
 ## Languages Used
-- Python — 1 questions
 - Go — 1 questions
 
-**Top language used:** Python
-**Total questions done:** 2
+**Top language used:** Go
+**Total questions done:** 1
 
 ## License
 This repository is licensed under the MIT License.  
