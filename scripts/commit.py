@@ -6,6 +6,8 @@ def run_git_command(*args):
     return result.stdout.strip().splitlines()
 
 def main():
+    subprocess.run(["git", "pull"])
+    
     untracked = run_git_command("ls-files", "--others", "--exclude-standard")
     modified = run_git_command("ls-files", "--modified")
     staged = run_git_command("diff", "--name-only", "--cached")
