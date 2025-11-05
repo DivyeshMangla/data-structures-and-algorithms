@@ -1,0 +1,93 @@
+# Core System, Temp and OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.swp
+*.bak
+*.log
+*.lock
+*~
+*.orig
+*.rej
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+build/
+dist/
+pip-wheel-metadata/
+.venv/
+venv/
+env/
+*.ipynb_checkpoints
+
+# Java files
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.project
+*.classpath
+*.settings/
+target/
+out/
+bin/
+
+# C / C++ files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# Golang files
+*.exe
+*.test
+*.out
+vendor/
+bin/
+go.sum
+go.work
+go.work.sum
+
+# Rust files
+/target/
+Cargo.lock
+
+# Swift files
+*.xcodeproj/
+*.xcworkspace/
+*.swiftpm/
+.build/
+DerivedData/
+
+# Node / JS files
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+.github/
+scripts/__pycache__/
