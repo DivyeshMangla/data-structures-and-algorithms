@@ -35,6 +35,7 @@ env/
 *.jar
 *.war
 *.ear
+*.xml
 *.iml
 *.project
 *.classpath
