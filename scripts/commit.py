@@ -47,7 +47,7 @@ def main():
     else:
         msg = "feat: solved or updated multiple problems across languages"
 
-    subprocess.run(["git", "add", "."])
+    subprocess.run(["git", "add", "-A"])
     subprocess.run(["git", "commit", "-m", msg])
     subprocess.run(["git", "push"])
 
