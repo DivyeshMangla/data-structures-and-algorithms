@@ -1,5 +1,7 @@
 import subprocess
 from pathlib import Path
+import threading
+import time
 
 def run_git_command(*args):
     result = subprocess.run(["git", *args], capture_output=True, text=True)
@@ -14,6 +16,17 @@ def file_exists_in_remote(filename):
     )
     remote_files = result.stdout.strip().splitlines()
     return filename in remote_files
+
+def schedule_pull_after_commit():
+    """Schedule a git pull 1 minute after commit"""
+    def delayed_pull():
+        time.sleep(60)
+        print("\nRunning scheduled pull...")
+        subprocess.run(["git", "pull"])
+
+    thread = threading.Thread(target=delayed_pull, daemon=True)
+    thread.start()
+    print("Git pull scheduled for 1 minute from now")
 
 def main():
     subprocess.run(["git", "pull"])
@@ -52,6 +65,7 @@ def main():
     subprocess.run(["git", "push"])
 
     print(msg)
+    schedule_pull_after_commit()
 
 if __name__ == "__main__":
     main()
