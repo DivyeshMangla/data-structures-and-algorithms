@@ -4,10 +4,10 @@ This repository contains my solutions to data structures and algorithms problems
 
 ## Languages Used
 - Java — 4 questions
-- Go — 4 questions
+- Go — 5 questions
 
-**Top language used:** Java
-**Total questions done:** 8
+**Top language used:** Go
+**Total questions done:** 9
 
 ## License
 This repository is licensed under the MIT License.  
