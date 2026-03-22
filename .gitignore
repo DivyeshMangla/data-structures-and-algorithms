@@ -53,6 +53,7 @@ bin/
 *.out
 *.a
 *.lib
+*CMakeLists.txt
 
 # Golang files
 *.exe
